@@ -42,6 +42,12 @@
 
                         <!-- #Region Menu -->
                         <li class="nav-item">
+                            <a href="{{ route('invoice.create') }}" class="nav-link">Tambah Invoice</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('invoice.index') }}" class="nav-link">Daftar Invoice</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="{{ url('/product') }}" class="nav-link">Manajemen Produk</a>
                         </li>
                         <li class="nav-item">

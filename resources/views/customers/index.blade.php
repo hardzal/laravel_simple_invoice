@@ -46,6 +46,13 @@
                                         <button class="btn btn-danger btn-sm">Hapus</button>
                                     </form>
                                 </td>
+                                <td>
+                                    <form action="{{ route('invoice.store') }}" method="POST">
+                                        @csrf
+                                        <input type="hidden" name="customer_id" value="{{ $customer->id }}"/>
+                                        <button class="btn btn-primary btn-sm">Tambah Invoice</button>
+                                    </form>
+                                </td>
                             </tr>
                             @empty
                             <tr>
