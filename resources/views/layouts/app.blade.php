@@ -44,6 +44,9 @@
                         <li class="nav-item">
                             <a href="{{ url('/product') }}" class="nav-link">Manajemen Produk</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="{{ url('/customers') }}" class="nav-link">Manajemen Customer</a>
+                        </li>
                         <!-- #EndRegion Menu -->
                         @guest
                             <li class="nav-item">
